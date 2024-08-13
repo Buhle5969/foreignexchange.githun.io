@@ -11,4 +11,43 @@ header {
     text-align: center;
 }
 
+nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+h1, h2, h3 {
+    margin: 10px 0;
+}
+
+section {
+    padding: 20px;
+}
+
+.course {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.course button {
+    background-color: #28a745;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
 
