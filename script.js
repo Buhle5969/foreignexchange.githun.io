@@ -21,3 +21,13 @@ document.addEventListener('DOMContentLoaded', () => {
             cartItems.appendChild(itemElem);
         });
 
+     const totalPrice = cart.reduce((acc, item) => acc + item.price, 0);
+        totalElem.innerText = totalPrice.toLocaleString('en-ZA', { style: 'currency', currency: 'ZAR' });
+    }
+
+    checkoutBtn.addEventListener('click', () => {
+        alert('Proceeding to payment...');
+        // Here you would integrate with a payment gateway like PayPal or Stripe.
+    });
+});
+
