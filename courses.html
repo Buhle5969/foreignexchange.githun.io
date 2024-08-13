@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>courses</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
@@ -14,5 +15,30 @@
             <a href="contact.html">Contacts</a>
         </nav>
     </header>
+    <section>
+    <h2>Select Your Course</h2>
+        <div class="course">
+           <h3>Basic Course</h3>
+           <p>Price: R3,000.00</p>
+           <button onclick="addToCart('Basic', 3000)">Buy Now</button>
+        </div>
+
+        <div class="course">
+           <h3>Standard Course</h3>
+           <p>Price: R4,500.00</p>
+           <button onclick="addToCart('Standard', 4500)">Buy Now</button>
+        </div>
+
+        <div class="course">
+           <h3>Premium Course</h3>
+           <p>Price: R6,000.00</p>
+           <button onclick="addToCart('Premium', 6000)">Buy Now</button>
+        </div>
+
+    </section>
+    <footer>
+    <p>&copy; 2024 Foreign Exchange Currency. All Rights Reserved.</p>
+    </footer> 
+    <script href="script.js"></script>
 </body>
 </html>
