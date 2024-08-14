@@ -106,5 +106,40 @@ img {
     background-color: #717171;
 }
     
+/* Navbar Styling */
+nav {
+    background-color: #333; /* Background color of the navbar */
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around; /* Adjust spacing between items */
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #ffffff; /* Text color */
+    text-decoration: none;
+    padding: 10px 10px;
+    display: block;
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+/* Hover effect for navbar items */
+nav ul li a:hover {
+    background-color: #ff9800; /* Background color on hover */
+    color: #fff; /* Text color on hover */
+}
+
+
+
 
 
