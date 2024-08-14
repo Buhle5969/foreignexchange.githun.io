@@ -192,6 +192,50 @@ nav ul li a:hover {
     transform: translateY(-5px);
 }
 
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-section {
+    flex: 1;
+    margin: 10px;
+}
+
+.footer-section h4 {
+    margin-bottom: 15px;
+    font-size: 18px;
+    color: #ff9800;
+}
+
+.footer-section p,
+.footer-section a {
+    margin: 5px 0;
+    color: #ddd;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-section a:hover {
+    color: #ff9800;
+}
+
+.footer-bottom {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+
 
 
 
