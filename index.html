@@ -8,44 +8,53 @@
 </head>
 <body>
     <header>
-        <h1>Welcome to Foreign Exchnage Currency Courses</h1>
-        <!-- fix your navbar is not professional at all -->
+        <h1>Welcome to Foreign Exchange Currency Courses</h1>
         <nav>
             <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="courses.html">Courses</a></li>
             <li><a href="contact.html">Contact</a></li>
-            </ul>    
+            </ul> 
         </nav>
-        <!-- make sure your pictures are copyright free -->
-        <!--yes they are copyright free-->
+
+         
         <!--I created a banner of slideshows-->
         <div class="slideshow-container">
-           <div class="mySlides">
-           <img src="Images/A1.jpeg" style="width:100%">  
-           </div>
-           <div  class="mySlides">
-           <img src="Images/A2.jpeg" style="width:100%">  
-           </div>   
-           <div class="mySlides">
-           <img src="Images/A1.jpeg" style="width:100%">  
-           </div>
-           <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-           <a class="next" onclick="plusSlides(1)">&#10095;</a>  
+            <div class="mySlides">
+            <img src="images/A1.jpeg" style="width:100%">  
+            </div>
+            <div  class="mySlides">
+            <img src="images/A2.jpeg" style="width:100%">  
+            </div>   
+            <div class="mySlides">
+            <img src="images/A1.jpeg" style="width:100%">  
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>  
+         </div>
+         <br>
+         <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+         </div>
+    </header>
+    <section class="newcourse">
+        <div class="course-item">
+            <h3>Basic Course</h3>
+            <p>Price: ZAR 3,000</p>
+            <button onclick="addToCart('Basic Course', 3000)">Add to Cart</button>
         </div>
-        <br>
-        <div style="text-align:center">
-           <span class="dot" onclick="currentSlide(1)"></span>
-           <span class="dot" onclick="currentSlide(2)"></span>
-           <span class="dot" onclick="currentSlide(3)"></span>
+        <div class="course-item">
+            <h3>Standard Course</h3>
+            <p>Price: ZAR 4,500</p>
+            <button onclick="addToCart('Standard Course', 4500)">Add to Cart</button>
         </div>
-     </header>
-<!-- This project is too simple -->
-<!--I am working on it-->
-    <section>
-        <h2>Learn foreign Exchange</h2>
-        <p>Choose from our carefully curated courses to master foreign exchange trading.</p>
-        <a href="courses.html" class="btn">view courses</a>
+        <div class="course-item">
+            <h3>Premium Course</h3>
+            <p>Price: ZAR 6,000</p>
+            <button onclick="addToCart('Premium Course', 6000)">Add to Cart</button>
+        </div>
     </section>
     <br><br>
     <section>
@@ -53,6 +62,7 @@
             <p>&copy; 2024 Foreign Exchange Currency. All Rights Reserved.</p>
         </footer>
     </section>
+    
 <script src="script.js"></script>
 </body>
 </html>
