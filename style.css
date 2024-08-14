@@ -122,7 +122,12 @@ nav ul {
 
 nav ul li {
     margin: 0 10px;
+    Background-color: blue;
 }
+
+nav ul {
+    Background-color: blue;
+    }
 
 nav ul li a {
     color: #ffffff; /* Text color */
