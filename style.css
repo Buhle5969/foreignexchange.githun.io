@@ -235,6 +235,23 @@ nav ul li a:hover {
     font-size: 14px;
 }
 
+.cart-item {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+#checkout-button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#checkout-button:hover {
+    background-color: #218838;
+}
 
 
 
