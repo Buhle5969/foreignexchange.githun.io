@@ -11,85 +11,88 @@
         <h1>Welcome to Foreign Exchange Currency Courses</h1>
         <nav>
             <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="courses.html">Courses</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            </ul> 
+                <li><a href="index.html">Home</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
         </nav>
 
-         
-        <!--I created a banner of slideshows-->
+        <!-- Slideshow Banner -->
         <div class="slideshow-container">
             <div class="mySlides">
-            <img src="images/A1.jpeg" style="width:100%">  
+                <img src="images/A1.jpeg" style="width:100%">
             </div>
-            <div  class="mySlides">
-            <img src="images/A2.jpeg" style="width:100%">  
-            </div>   
             <div class="mySlides">
-            <img src="images/A1.jpeg" style="width:100%">  
+                <img src="images/A2.jpeg" style="width:100%">
+            </div>
+            <div class="mySlides">
+                <img src="images/A1.jpeg" style="width:100%">
             </div>
             <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-            <a class="next" onclick="plusSlides(1)">&#10095;</a>  
-         </div>
-         <br>
-         <div style="text-align:center">
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+        <div style="text-align:center">
             <span class="dot" onclick="currentSlide(1)"></span>
             <span class="dot" onclick="currentSlide(2)"></span>
             <span class="dot" onclick="currentSlide(3)"></span>
-         </div>
+        </div>
     </header>
+
     <section class="newcourses">
         <div class="course-item">
             <h3>Basic Course</h3>
+            <p>This course covers fundamental concepts of foreign exchange trading, suitable for beginners.</p>
             <p>Price: ZAR 3,000</p>
-            <button onclick="addToCart('Basic Course', 3000)">Add to Cart</button>
+            <button onclick="addToCart('Basic Course', 3000, 'This course covers fundamental concepts of foreign exchange trading, suitable for beginners.')">Buy Now</button>
         </div>
         <div class="course-item">
             <h3>Standard Course</h3>
+            <p>This course dives deeper into trading strategies and risk management techniques.</p>
             <p>Price: ZAR 4,500</p>
-            <button onclick="addToCart('Standard Course', 4500)">Add to Cart</button>
+            <button onclick="addToCart('Standard Course', 4500, 'This course dives deeper into trading strategies and risk management techniques.')">Buy Now</button>
         </div>
         <div class="course-item">
             <h3>Premium Course</h3>
+            <p>This advanced course is designed for experienced traders looking to maximize their profits.</p>
             <p>Price: ZAR 6,000</p>
-            <button onclick="addToCart('Premium Course', 6000)">Add to Cart</button>
+            <button onclick="addToCart('Premium Course', 6000, 'This advanced course is designed for experienced traders looking to maximize their profits.')">Buy Now</button>
         </div>
     </section>
     <br><br>
-    
-        <footer class="footer">
-    <div class="footer-content">
-        <div class="footer-section trading-hours">
-            <h4>Trading Hours</h4>
-            <p>Monday - Friday: 8:00 AM - 6:00 PM</p>
-            <p>Saturday: 9:00 AM - 3:00 PM</p>
-            <p>Sunday: Closed</p>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section trading-hours">
+                <h4>Trading Hours</h4>
+                <p>Monday - Friday: 8:00 AM - 6:00 PM</p>
+                <p>Saturday: 9:00 AM - 3:00 PM</p>
+                <p>Sunday: Closed</p>
+            </div>
+            <div class="footer-section location">
+                <h4>Location</h4>
+                <p>123 Forex Street</p>
+                <p>Finance District</p>
+                <p>Cape Town, South Africa</p>
+            </div>
+            <div class="footer-section contact">
+                <h4>Contact Us</h4>
+                <p>Email: info@forextrading.com</p>
+                <p>Phone: +27 79 672 9393</p>
+            </div>
+            <div class="footer-section social-media">
+                <h4>Follow Us</h4>
+                <p>
+                    <a href="#">Facebook</a> 
+                    <a href="#">Twitter</a> 
+                    <a href="#">LinkedIn</a>
+                </p>
+            </div>
         </div>
-        <div class="footer-section location">
-            <h4>Location</h4>
-            <p>123 Forex Street</p>
-            <p>Finance District</p>
-            <p>Cape Town, South Africa</p>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Forex Trading. All Rights Reserved.</p>
         </div>
-        <div class="footer-section contact">
-            <h4>Contact Us</h4>
-            <p>Email: info@forextrading.com</p>
-            <p>Phone: +27 79 672 9393</p>
-        </div>
-        <div class="footer-section social-media">
-            <h4>Follow Us</h4>
-            <p>
-                <a href="#">Facebook</a> | 
-                <a href="#">Twitter</a> | 
-                <a href="#">LinkedIn</a>
-            </p>
-        </div>
-    </div>
-    <div class="footer-bottom">
-        <p>&copy; 2024 Forex Trading. All Rights Reserved.</p>
-    </div>
-</footer>
+    </footer>
     
 <script src="script.js"></script>
 </body>
